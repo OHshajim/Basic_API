@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BASIC API</title>
+
+    <style>
+        .post{
+            background: #7eb5ec;
+            padding: 20px;
+            border: 5px dashed #776dc0;
+            border-radius: 25px;
+            margin-top:10px;
+        }
+    </style>
 </head>
 <body>
     <h1>Basic API</h1>
@@ -12,10 +22,21 @@
     <div>
         <!-- check on console -->
         <button onclick="loadData()">API-1</button>  
+
         <button onclick="users()">API-2</button> 
-        <button onclick="">API-3</button>
-        <button onclick="">API-4</button>
-        <button onclick="">API-5</button>
+        <!-- arrow function -->
+        <button onclick="loadComment()">API-3</button>
+    </div>
+
+    <div>
+        <ul id="ul"></ul>
+    </div>
+    
+    <div>
+        <h1>post</h1>
+        <div id="post-box">
+
+        </div>
     </div>
 
     <!-- script -->
